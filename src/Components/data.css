@@ -1,0 +1,40 @@
+body{
+    background-color: #2c3034;
+    color: white;
+}
+h1{
+    margin: 10px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+.mainData{
+    margin-left: 20vw;
+    width: 60vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #001429;
+    border-radius: 3px;
+    align-items: center;
+}
+
+.dispSet{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 4px;
+    padding: 2px;
+}
+
+.dispTitle{
+    font-weight: 100;
+    min-width: 17vw;
+    color: rgba(245, 245, 245, 0.915);
+}
+
+.dispData{
+    text-align: left;
+    min-width: 17vw;
+}
